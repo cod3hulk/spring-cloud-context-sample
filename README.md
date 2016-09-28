@@ -1,6 +1,11 @@
 # Spring Cloud Context Refresh Configuration Sample
 Sample project to show basic setup of Spring Cloud Context to refresh Bean configuration values.
 
+# Usage
+* Run the application by 'mvn spring-boot:run'. 
+* Adjust application.properties in the target folder. 
+* Call 'localhost:8080/refresh' to trigger reload of the adjusted properties. 
+
 # Resources
 
 ## GreetingController
