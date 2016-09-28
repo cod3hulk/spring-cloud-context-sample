@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by tave on 27.09.16.
+ * Spring bean using refreshable properties by {@link org.springframework.boot.context.properties.ConfigurationProperties}
  */
 @RestController
 class GreetingController {

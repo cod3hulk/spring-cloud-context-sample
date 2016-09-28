@@ -3,13 +3,13 @@ package com.acme.config;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 /**
- * Reloadable Spring Configuration Properties
+ * Reloadable Spring Configuration Properties by {@link ConfigurationPropertiesRebinderAutoConfiguration}
  */
-@RefreshScope
 @Component
 @ConfigurationProperties(prefix = "my")
 public class MyConfig {

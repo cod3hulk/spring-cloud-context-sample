@@ -11,6 +11,10 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 
+/**
+ * Application entry point.
+ * Imports {@link RefreshAutoConfiguration} for support of 
+ */
 @SpringBootApplication
 @Import(value = {ConfigurationPropertiesRebinderAutoConfiguration.class, RefreshAutoConfiguration.class})
 public class CloudContextTestApplication {
